@@ -42,7 +42,9 @@
     "eslint-plugin-react": "^7.29.2",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
-    "prettier": "^2.5.1"
+    "node-sass": "^7.0.1",
+    "prettier": "^2.5.1",
+    "styled-components": "^5.3.3"
   },
   "lint-staged": {
     "*.{js, jsx}": [
