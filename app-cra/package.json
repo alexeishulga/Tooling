@@ -43,7 +43,9 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
     "node-sass": "^7.0.1",
+    "normalize.css": "^8.0.1",
     "prettier": "^2.5.1",
+    "sanitize.css": "^13.0.0",
     "styled-components": "^5.3.3"
   },
   "lint-staged": {
