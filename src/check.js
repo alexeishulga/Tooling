@@ -1,3 +1,3 @@
 export default function alertCheck() {
-    alert('Hello world!');
+    alert('update Hello world!');
   } 

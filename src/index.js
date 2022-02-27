@@ -21,5 +21,15 @@ function addElement() {
 
   return element;
 }
+document.body.appendChild(component());
+let element = component(); 
+document.body.appendChild(element);
 
-document.body.appendChild(addElement());
+if (module.hot) {
+  module.hot.accept('./check.js', function() {
+    console.log(' updated  module!');
+    document.body.removeChild(element);
+    element = component()
+    document.body.appendChild(element);
+  })
+} 
